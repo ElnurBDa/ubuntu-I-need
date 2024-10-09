@@ -1,3 +1,9 @@
+# Ansible
+```bash
+python3 -m venv .venv
+./.venv/bin/pip3 install ansible
+```
+
 # Instructions
 1. `ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa`
 2. Copy `~/.ssh/id_rsa.pub` and paste at end of `~/.ssh/authorized_keys` at remote machine
